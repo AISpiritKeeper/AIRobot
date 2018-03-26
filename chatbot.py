@@ -53,6 +53,8 @@ class Application(tk.Frame):
 
 #app = Application()
 root = tk.Tk()
+root.geometry('400x300')#窗体大小
+root.resizable(False, False)#固定窗体
 app = Application(master=root)
 # 设置窗口标题:
 app.master.title('聊天机器人')
